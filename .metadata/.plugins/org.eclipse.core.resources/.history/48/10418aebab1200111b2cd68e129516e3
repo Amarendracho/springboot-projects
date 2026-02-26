@@ -1,0 +1,16 @@
+package com.example.demo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class FistSpringBootApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(FistSpringBootApplication.class, args);
+		Welcome w = new Welcome();
+		System.out.println(w.greet("Amarendra"));
+		
+	}
+ 
+}

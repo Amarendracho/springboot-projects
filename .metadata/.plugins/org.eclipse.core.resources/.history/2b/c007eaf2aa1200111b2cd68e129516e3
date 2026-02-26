@@ -1,0 +1,9 @@
+package com.example.demo;
+
+public class Welcome {
+	
+	public String greet(String name) {
+		
+	}
+
+}
