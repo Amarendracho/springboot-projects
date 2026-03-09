@@ -10,5 +10,5 @@ STEPS TO RUN THIS APPLICATION.
 6. Using **@Autowired** Annotation wire the objects from one class to another.
             	@Autowired // FIELD INJECTION
 	            private FederalBanking fed;
-7. 
+7. Create an interface for autowiring to achieve loose coupling.
 
