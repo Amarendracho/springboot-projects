@@ -12,5 +12,5 @@ STEPS TO RUN THIS APPLICATION.
 	            private FederalBanking fed;
 7. Create an interface for autowiring to achieve loose coupling.
 8. We 2 classes implements same interface to call prior class or particular class use **@Primary** Annotation at class level.
-9. 
+9. By method level use **@Qualifier("")**
 
