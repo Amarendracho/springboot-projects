@@ -5,7 +5,8 @@ STEPS TO RUN THIS APPLICATION.
 1. Create a simple Maven project using any (IDE ECLIPSE/STS/INTELIJ/VS CODE). maven quickstart project.
 2. To Create springcontainer inport the dependency called **ApplicationContext**. add into pom.xml
                    https://mvnrepository.com/artifact/org.springframework/spring-context/7.0.5
-3. 
+3. Create an xml file inside resources folder src/main/java - create a directory resources - inside create file called **spring.xml **
+
 
 
 
