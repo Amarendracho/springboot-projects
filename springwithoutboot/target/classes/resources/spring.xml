@@ -6,7 +6,7 @@
 
     
     <bean>
-    	<property name="hospital"></property>
+    	<property name="hospital" value="com.amar.springwithoutboot.Hospital"></property>
     </bean>
 
 </beans>
