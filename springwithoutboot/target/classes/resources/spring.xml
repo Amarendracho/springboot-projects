@@ -6,7 +6,7 @@
 
     
     <bean>
-    	<property name=""></property>
+    	<property name="hospital"></property>
     </bean>
 
 </beans>
