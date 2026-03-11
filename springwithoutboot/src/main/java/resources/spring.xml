@@ -5,8 +5,6 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     
-    <bean id="hospital" class="com.amar.springwithoutboot.Hospital">
-    	
-    </bean>
+    <bean id="hospital" class="com.amar.springwithoutboot.Hospital"></bean>
 
 </beans>
