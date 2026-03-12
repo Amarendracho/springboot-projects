@@ -10,6 +10,7 @@ STEPS TO RUN THIS APPLICATION.
                <bean id="hospital" class="com.amar.springwithoutboot.Hospital"></bean>
 5. Create a object and call with spring container bean
                Hospital h = (Hospital) context.getBean("hospital");
+6. 
 
 
 
