@@ -8,7 +8,8 @@ STEPS TO RUN THIS APPLICATION.
 3. Create an xml file inside resources folder src/main/java - create a directory resources - inside create file called **spring.xml**
 4. Create beans inside xml file.
                <bean id="hospital" class="com.amar.springwithoutboot.Hospital"></bean>
-5. Create a object and 
+5. Create a object and call spring 
+
 
 
 
