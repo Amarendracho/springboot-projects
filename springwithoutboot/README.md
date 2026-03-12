@@ -13,7 +13,8 @@ STEPS TO RUN THIS APPLICATION.
 
 6. Create setter and constructor injection.
       **CONSTRUCTOR INJECTION** - init parameterized constructor based on variables.
-       **SETTER INJECTION**
+       **SETTER INJECTION** - init getter and setter methods
+
 
 
 
