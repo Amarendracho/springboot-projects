@@ -12,6 +12,6 @@ public class App
     	Hospital h = (Hospital) context.getBean("hospital");
     	h.patientDepartment();
     	
-
     }
 }
+ 
