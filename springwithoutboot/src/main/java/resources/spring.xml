@@ -8,7 +8,8 @@
     <bean id="hospital" class="com.amar.springwithoutboot.Hospital"></bean>
     
     <bean id="childran" class="com.amar.springwithoutboot.ChildranHospital">
-    	<property name="patientName" value="MAREDITH"/>
+    	<!--<property name="patientName" value="MAREDITH"/>-->
+    	<constructor-arg value="MARK SLOAN"/>
     
     </bean>
     													  
