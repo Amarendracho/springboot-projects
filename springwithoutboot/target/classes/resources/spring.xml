@@ -7,6 +7,7 @@
     
     <bean id="hospital" class="com.amar.springwithoutboot.Hospital"></bean>
     
-    <bean id="childran" class="com.amar.springwithoutboot.Childranospital"/>
+    <bean id="childran" class="com.amar.springwithoutboot.ChildranHospital"/>
+    													  
 
 </beans> 	 
