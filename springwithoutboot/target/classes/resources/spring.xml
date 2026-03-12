@@ -9,6 +9,8 @@
     
     <bean id="childran" class="com.amar.springwithoutboot.ChildranHospital">
     	<!--<property name="patientName" value="MAREDITH"/>-->
+    	<!-- THIS CONSTRUCTOR HAVE 1 NAME SO JUST VALUE IF WE HAVE MORE THEN 1 NAMES 
+    		 USE index="1" pr index="2"-->
     	<constructor-arg value="MARK SLOAN"/>
     
     </bean>
