@@ -2,7 +2,7 @@ package com.amar.springwithoutboot;
 
 public class ChildranHospital {
 	
-	private String parientName = "Mark Sloan";
+	private String patientName = "Mark Sloan";
 	
 	public ChildranHospital() {
 		System.out.println("CHILDRAN HOSPITAL");
@@ -10,16 +10,16 @@ public class ChildranHospital {
 	
 	//CONSTRUCTOR INJECTION
 	public ChildranHospital(String parientName) {
-		this.parientName = parientName;
+		this.patientName = parientName;
 	}
 	
 	//GETTERS AND SETTERS 
 	public String getPatientName() {
-		return parientName;
+		return patientName;
 	}
 	
 	public void setPatientName(String parientName) {
-		this.parientName = parientName;
+		this.patientName = parientName;
 	}
 
 } 
