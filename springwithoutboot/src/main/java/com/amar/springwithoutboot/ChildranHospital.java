@@ -9,5 +9,8 @@ public class ChildranHospital {
 	}
 	
 	//CONSTRUCTOR INJECTION
+	public ChildranHospital(String parientName) {
+		this.parientName = parientName;
+	}
 
 } 
