@@ -18,6 +18,8 @@ public class ChildranHospital {
 		return parientName;
 	}
 	
-	public void 
+	public void setPatientName(String parientName) {
+		this.parientName = parientName;
+	}
 
 } 
