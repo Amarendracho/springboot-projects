@@ -13,6 +13,11 @@ public class ChildranHospital {
 		this.parientName = parientName;
 	}
 	
-	//GETTERS AND SETTERS  
+	//GETTERS AND SETTERS 
+	public String getPatientName() {
+		return parientName;
+	}
+	
+	public void 
 
 } 
