@@ -11,6 +11,7 @@ public class ChildranHospital {
 	//CONSTRUCTOR INJECTION
 	public ChildranHospital(String parientName) {
 		this.patientName = parientName;
+		System.out.println("CHILDRAN HOSPITAL");
 	}
 	
 	//GETTERS AND SETTERS 
