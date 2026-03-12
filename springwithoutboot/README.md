@@ -11,7 +11,9 @@ STEPS TO RUN THIS APPLICATION.
 5. Create a object and call with spring container bean
                Hospital h = (Hospital) context.getBean("hospital");
 
-6. Create setter and constructor injection 
+6. Create setter and constructor injection.
+      
+
 
 
 
