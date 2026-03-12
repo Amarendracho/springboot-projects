@@ -9,7 +9,7 @@ public class App
     {
     	
     	ApplicationContext context = new ClassPathXmlApplicationContext("resources/spring.xml");
-    	Hospital h = (Hospital) context.getBean("hospital");
+    	//Hospital h = (Hospital) context.getBean("hospital");
     	
     	ChildranHospital c = (ChildranHospital) context.getBean("childran");
     	System.out.println(c.parientName="Mark Sloan");
