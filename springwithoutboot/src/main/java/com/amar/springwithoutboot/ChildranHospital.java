@@ -2,7 +2,7 @@ package com.amar.springwithoutboot;
 
 public class ChildranHospital {
 	
-	private String patientName = "Mark Sloan";
+	private String patientName;
 	
 	public ChildranHospital() {
 		System.out.println("CHILDRAN HOSPITAL");

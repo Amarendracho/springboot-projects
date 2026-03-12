@@ -12,7 +12,6 @@ public class App
     	Hospital h = (Hospital) context.getBean("hospital");
     	
     	ChildranHospital c = (ChildranHospital) context.getBean("childran");
-    	c.setPatientName("MAREDITH"); // CHANGE NAME
     	System.out.println(c.getPatientName());
     	h.patientDepartment();
     	
