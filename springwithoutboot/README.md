@@ -9,7 +9,8 @@ STEPS TO RUN THIS APPLICATION.
 4. Create beans inside xml file.
                <bean id="hospital" class="com.amar.springwithoutboot.Hospital"></bean>
 5. Create a object and call with spring container bean
-   
+               Hospital h = (Hospital) context.getBean("hospital");
+
 
 
 
