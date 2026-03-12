@@ -12,5 +12,7 @@ public class ChildranHospital {
 	public ChildranHospital(String parientName) {
 		this.parientName = parientName;
 	}
+	
+	//GETTER 
 
 } 
