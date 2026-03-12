@@ -12,7 +12,8 @@ STEPS TO RUN THIS APPLICATION.
                Hospital h = (Hospital) context.getBean("hospital");
 
 6. Create setter and constructor injection.
-      CONSTRUCTOR INJECTION - init parameterized constructor based on variables.
+      **CONSTRUCTOR INJECTION** - init parameterized constructor based on variables.
+
 
 
 
