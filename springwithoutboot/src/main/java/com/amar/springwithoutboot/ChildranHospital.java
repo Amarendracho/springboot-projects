@@ -5,6 +5,7 @@ public class ChildranHospital {
 	private String patientName;
 	private int patientAge;
 
+	// GETTERS AND SETTERS
 	public void setPatientName(String patientName) {
 		this.patientName = patientName;
 	}
@@ -34,7 +35,7 @@ public class ChildranHospital {
 		System.out.println("CHILDRAN HOSPITAL PARAMETERIZED CONSTRUCTION");
 	}
 
-	// GETTERS AND SETTERS
+
 
 
 }
