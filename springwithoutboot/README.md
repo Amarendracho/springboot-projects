@@ -16,10 +16,7 @@ STEPS TO RUN THIS APPLICATION.
        USE ANY OF ONE BELOW
             **SETTER INJECTION** - init getter and setter methods
             **CONSTRUCTOR INJECTION** - init parameterized constructor based on variables.
-            
-9. **CONSTRUCTOR INJECTION** - config file (spring.xml) inside <bean> tag use <property name ="" value = "">
-          <property name="patientName" value="MAREDITH"/>
-10. 
+
 
 
 
