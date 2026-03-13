@@ -17,7 +17,9 @@ STEPS TO RUN THIS APPLICATION.
             **SETTER INJECTION** - init getter and setter methods
             **CONSTRUCTOR INJECTION** - init parameterized constructor based on variables.
 8. If you choose SETTER INJECTION. create setters and getters inside the class. Then open spring.xml file inside bean class default tag
-     (property) has name and value. <property name="patientName" value="ARON"/>
+     (property) has name and value. **<property name="patientName" value="ARON"/>** If you have multiple variables create multiple
+      properties.  
+
 
 
 
