@@ -10,7 +10,7 @@ STEPS TO RUN THIS APPLICATION.
                <bean id="hospital" class="com.amar.springwithoutboot.Hospital"></bean>
 5. Create a object and call with spring container bean
                Hospital h = (Hospital) context.getBean("hospital");
-6. 
+6. How to call properties/variables inside a class ? class must have private variables we cannot call directly private variables. 
 7. Create setter and constructor injection.
        USE ANY OF ONE BELOW
             **CONSTRUCTOR INJECTION** - init parameterized constructor based on variables.
@@ -18,6 +18,7 @@ STEPS TO RUN THIS APPLICATION.
 8. **CONSTRUCTOR INJECTION** - config file (spring.xml) inside <bean> tag use <property name ="" value = "">
           <property name="patientName" value="MAREDITH"/>
 9. 
+
 
 
 
