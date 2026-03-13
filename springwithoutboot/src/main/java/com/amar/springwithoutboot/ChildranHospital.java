@@ -2,7 +2,8 @@ package com.amar.springwithoutboot;
 
 public class ChildranHospital {
 	 
-	private String patientName;
+	 String patientName;
+	 int patientAge;
 	
 	//private Hospital hospital;
 	
@@ -17,13 +18,13 @@ public class ChildranHospital {
 	} 
 	 
 	//GETTERS AND SETTERS 
-	public String getPatientName() {
-		return patientName;
-	}
-	
-	public void setPatientName(String parientName) {
-		this.patientName = parientName;
-	}
+//	public String getPatientName() {
+//		return patientName;
+//	}
+//	
+//	public void setPatientName(String parientName) {
+//		this.patientName = parientName;
+//	}
 	
 //	public ChildranHospital(Hospital hospital) {
 //		this.hospital = hospital;

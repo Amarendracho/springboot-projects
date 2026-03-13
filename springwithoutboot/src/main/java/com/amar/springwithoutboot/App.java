@@ -13,7 +13,9 @@ public class App
     	//Hospital h = (Hospital) context.getBean("hospital");
     	
     	ChildranHospital c = (ChildranHospital) context.getBean("childran");
-    	System.out.println(c.getPatientName());
+    	System.out.println(c.patientName);
+    	System.out.println(c.patientAge); 	
+    	//System.out.println(c.getPatientName());
     	//h.patientDepartment();
     	
     	
