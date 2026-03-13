@@ -10,7 +10,6 @@ STEPS TO RUN THIS APPLICATION.
                <bean id="hospital" class="com.amar.springwithoutboot.Hospital"></bean>
 5. Create a object and call with spring container bean
                Hospital h = (Hospital) context.getBean("hospital");
-
 6. Create setter and constructor injection.
        USE ANY OF ONE BELOW
             **CONSTRUCTOR INJECTION** - init parameterized constructor based on variables.
@@ -18,6 +17,7 @@ STEPS TO RUN THIS APPLICATION.
 7. **CONSTRUCTOR INJECTION** - config file (spring.xml) inside <bean> tag use <property name ="" value = "">
           <property name="patientName" value="MAREDITH"/>
 8. 
+
 
 
 
