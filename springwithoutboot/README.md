@@ -14,11 +14,13 @@ STEPS TO RUN THIS APPLICATION.
    So use GETTER AND SETTERS to call private variables. **Encapsulation property  **
 7. To inject the values for the properties use 
        USE ANY OF ONE BELOW
+            **SETTER INJECTION** - init getter and setter methods
             **CONSTRUCTOR INJECTION** - init parameterized constructor based on variables.
-             **SETTER INJECTION** - init getter and setter methods
+            
 9. **CONSTRUCTOR INJECTION** - config file (spring.xml) inside <bean> tag use <property name ="" value = "">
           <property name="patientName" value="MAREDITH"/>
 10. 
+
 
 
 
