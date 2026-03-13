@@ -1,10 +1,12 @@
 package com.amar.springwithoutboot;
 
 public class ChildranHospital {
-	
+	 
 	private String patientName;
 	
-	public ChildranHospital() {
+	//private Hospital hospital;
+	
+	public ChildranHospital() { 
 		System.out.println("CHILDRAN HOSPITAL");
 	}
 	
@@ -12,8 +14,8 @@ public class ChildranHospital {
 	public ChildranHospital(String parientName) {
 		this.patientName = parientName;
 		System.out.println("CHILDRAN HOSPITAL PARAMETERIZED CONSTRUCTION");
-	}
-	
+	} 
+	 
 	//GETTERS AND SETTERS 
 	public String getPatientName() {
 		return patientName;
@@ -22,5 +24,9 @@ public class ChildranHospital {
 	public void setPatientName(String parientName) {
 		this.patientName = parientName;
 	}
+	
+//	public ChildranHospital(Hospital hospital) {
+//		this.hospital = hospital;
+//	}
 
 } 
