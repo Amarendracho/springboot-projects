@@ -11,8 +11,6 @@ public class App {
 		// Hospital h = (Hospital) context.getBean("hospital");
 
 		ChildranHospital c = (ChildranHospital) context.getBean("childran");
-		c.setPatientName("JORDON");
-		c.setPatientAge(25);
 		System.out.println(c.getPatientName());
 		System.out.println(c.getPatientAge());
 
