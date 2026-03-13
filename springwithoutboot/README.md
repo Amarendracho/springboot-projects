@@ -6,7 +6,7 @@ STEPS TO RUN THIS APPLICATION.
 2. To Create springcontainer inport the dependency called **ApplicationContext**. add into pom.xml
                    https://mvnrepository.com/artifact/org.springframework/spring-context/7.0.5
 3. Create an xml file inside resources folder src/main/java - create a directory resources - inside create file called **spring.xml**
-4. Create beans inside xml file.
+4. Create beans inside xml file. Every Bean is an Object.
                <bean id="hospital" class="com.amar.springwithoutboot.Hospital"></bean>
 5. Create a object and call with spring container bean
                Hospital h = (Hospital) context.getBean("hospital");
@@ -18,6 +18,7 @@ STEPS TO RUN THIS APPLICATION.
 7. **CONSTRUCTOR INJECTION** - config file (spring.xml) inside <bean> tag use <property name ="" value = "">
           <property name="patientName" value="MAREDITH"/>
 8. 
+
 
 
 
