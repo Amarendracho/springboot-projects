@@ -16,6 +16,8 @@ STEPS TO RUN THIS APPLICATION.
        USE ANY OF ONE BELOW
             **SETTER INJECTION** - init getter and setter methods
             **CONSTRUCTOR INJECTION** - init parameterized constructor based on variables.
+8. If you choose SETTER INJECTION. create setters and getters inside the class.
+
 
 
 
